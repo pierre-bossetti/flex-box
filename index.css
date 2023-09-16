@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  cursor: pointer;
+  padding-left: 10px;
+  height: 50px;
+}
+
+#nav-links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#nav-links li a {
+  font-size: 18px;
+  color: grey;
+}
+
+#nav-links li a:hover {
+  color: white;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#title-banner {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+}
+
+#title-banner h2 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#title-banner h4 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#tea-month {
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#tea-month h3 {
+  font-size: 25px;
+  line-height: 2.2;
+}
+
+.tea-img {
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+.tea-img img {
+  width: 300px;
+  height: 200px;
+}
+
+#products p {
+  margin: 10px 0 20px;
+  font-weight: 700;
+}
+
+#locations {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-wrap: wrap;
+  background: url('./img/img-locations-background.jpg') center no-repeat;
+  overflow-y: scroll;
+}
+
+#locations h2 {
+  flex: 1 1 100%;
+  align-self: flex-end;
+}
+
+.location {
+  align-self: flex-start;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  line-height: 200%;
+  padding: 10px 0;
+}
+
+#contact {
+  height: 200px;
+  line-height: 4;
+  text-align: center;
+}
+
+footer {
+  padding-left: 20px;
+  margin: 20px 0;
+  text-align: left;
+}
